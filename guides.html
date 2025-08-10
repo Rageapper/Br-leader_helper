@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Все гайды | Minimal Guides</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">LEADER HELPER</a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="guides.html" class="active">Гайды</a></li>
+                    <li><a href="about.html">О проекте</a></li>
+                </ul>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="all-guides">
+            <div class="container">
+                <h1>Все гайды</h1>
+                <div class="filter-tabs">
+                    <button class="filter-btn active">Все</button>
+                    <button class="filter-btn">Новичкам</button>
+                    <button class="filter-btn">Продвинутые</button>
+                    <button class="filter-btn">Советы</button>
+                </div>
+                
+                <div class="guides-grid">
+                    <!-- Здесь будут все гайды -->
+                    <div class="guide-card">
+                        <div class="guide-meta">
+                            <span class="guide-level beginner">Новичкам</span>
+                            <span class="guide-time">10 мин чтения</span>
+                        </div>
+                        <h3>Как начать свой п...</h3>
+                        <p>Пошаговое руководство для новичков.</p>
+                        <a href="#" class="guide-link">Читать →</a>
+                    </div>
+                    
+                    <!-- Добавьте больше карточек гайдов -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 Leader Helper</p>
+            <p>ВК: @na_kapte_epta</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
